@@ -20,6 +20,6 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Jalankan bot
-        run: python botbaru.py
+        run: python bot_baru.py
         env:
           TOKEN: ${{ secrets.TOKEN }}
